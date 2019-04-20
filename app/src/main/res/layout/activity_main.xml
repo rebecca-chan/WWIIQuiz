@@ -1,0 +1,235 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textCapWords"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/amazon"/>
+
+        <TextView
+            android:id="@+id/question1"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="1. Which of the following was not a factor in causing WWII?"
+            android:textAllCaps="false" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/question1_japan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Japanese expansion into China"
+                android:textSize="16sp"
+                />
+
+            <RadioButton
+                android:id="@+id/question1_depression"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="The Great Depression"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question1_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="The Adoption of the Gold Standard"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question1_versailles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="The Treaty of Versailles"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="2. Which of the following countries were part of the Axis?"
+            android:textAllCaps="false" />
+
+            <CheckBox
+                android:id="@+id/question2_germany"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"
+                android:text="Germany"/>
+
+            <CheckBox
+                android:id="@+id/question2_japan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"
+                android:text="Japan"/>
+
+            <CheckBox
+                android:id="@+id/question2_italy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"
+                android:text="Italy"/>
+
+            <CheckBox
+                android:id="@+id/question2_france"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"
+                android:text="France"/>
+
+
+        <TextView
+            android:id="@+id/question3"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="3. Who was the prime minister at the beginning of WWII?"
+            android:textAllCaps="false" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/question3_woodrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Woodrow Wilson"
+                android:textSize="16sp"
+                />
+
+            <RadioButton
+                android:id="@+id/question3_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Winston Churchill"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question1_tony"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Tony Blair"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question3_charles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Charles de Gaulle"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp" />
+
+            </RadioGroup>
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="4. Which of the following countries declared war on Germany?"
+            android:textAllCaps="false" />
+
+        <CheckBox
+            android:id="@+id/question4_france"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"
+            android:text="France"/>
+
+        <CheckBox
+            android:id="@+id/question4_spain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"
+            android:text="Spain"/>
+
+        <CheckBox
+            android:id="@+id/question4_britain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"
+            android:text="Great Britain"/>
+
+        <CheckBox
+            android:id="@+id/question4_russia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:text="Russia"/>
+
+    <TextView
+        android:id="@+id/question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="BONUS: What was the name of the machine to protect diplomatic, military, and commercial communication?"
+        android:textAllCaps="false" />
+
+        <EditText
+            android:id="@+id/bonus_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="your answer"
+            android:inputType="textCapWords"/>
+
+    <Button
+        android:id="@+id/submitAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:onClick="submitAnswers"
+        android:text="RESULTS" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
